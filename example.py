@@ -14,3 +14,9 @@ def foo(a, b, c=4, d=5, e=6):
 # each time foo is called, the input arguments and output is logged
 foo(1, 3)
 foo(1, 3, 5, e=90)
+
+# loggy will print the calling function too
+def bar():
+    return foo(1, 3)
+
+bar()
