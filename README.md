@@ -31,7 +31,7 @@ foo(1, 3, 5, e=90)
 The output of the above is
 
 ```
-014-12-20 11:42:17,064 called foo with arguments:
+2014-12-20 11:42:17,064 called foo with arguments:
 a: 1
 c: 4
 b: 3
