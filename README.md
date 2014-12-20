@@ -9,7 +9,7 @@ Use a Python decorator to automatically log function calls.
 
 The file `example.py` shows how loggy can be used
 
-```
+```python
 # example.py
 import logging
 import loggy
