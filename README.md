@@ -1,11 +1,9 @@
 loggy
 =====
 
-## About
 Use a Python decorator to automatically log function calls.
 
-
-## Usage
+### Usage
 
 The file `example.py` shows how loggy can be used
 
@@ -49,3 +47,6 @@ The output of the above is
 {'b': 3, 'd': 5, 'a': 1, 'e': 6, 'c': 4}
 2014-12-20 19:35:11,983 result: 19
 ```
+
+### License
+Licensed under the terms of the MIT License. See `LICENSE.md`
