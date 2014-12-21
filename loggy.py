@@ -1,7 +1,9 @@
 import logging
 import inspect
+import functools
 
 def log(fn):
+    @functools.wraps(fn)
     def decorated(*args, **kwargs):
         # get the names of all the args
         arguments = inspect.getcallargs(fn, *args, **kwargs)
