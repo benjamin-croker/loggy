@@ -15,5 +15,7 @@ def log(fn):
         result = fn(*args, **kwargs)
         logging.debug("result: {}\n".format(result))
 
+        return result
+
     return decorated
 
